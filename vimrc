@@ -16,6 +16,11 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'airblade/vim-gitgutter'
 
+
+
+" Sometimes you can't delte Characters in Insert Mode
+set backspace=indent,eol,start
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 " :PluginList       - lists configured plugins
